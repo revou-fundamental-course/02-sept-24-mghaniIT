@@ -72,7 +72,7 @@ text-align: center;
 
 .section-luas {
     display: flex  ;
- 
+ justify-content: space-between;
    
     
    
