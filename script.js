@@ -8,7 +8,7 @@ let tinggi = document.getElementById("tinggii").value;
 let hasil = perseInt(alas) + perseInt(tinggi)
 console.log(hasil)
 
-document.write('Hasilnya adalah' + hasil)
+document.write('Hasilnya adalah' + hasi)
 
 
 
