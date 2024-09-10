@@ -2,13 +2,14 @@ const x = 10
 console.log(x)
 
 function hitung() {
-let alas = document.getElementById("alass").value;
-let tinggi = document.getElementById("tinggii").value;
+  console.log(hasil)
+let alas = document.getElementById("alass");
+let tinggi = document.getElementById("tinggii");
 
-let hasil = perseInt(alas) + perseInt(tinggi)
-console.log(hasil)
+//let hasil = perseInt(alas) + perseInt(tinggi)
 
-document.write('Hasilnya adalah' + hasi)
+
+//document.write('Hasilnya adalah' + hasi)
 
 
 
