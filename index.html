@@ -17,48 +17,79 @@
 <section class="section-content">
   <!-- <button href=" #" type="button" class="selection-btn active" >Hitung Segitiga</button>
   <button href="/02-sept-24-mghaniIT/Jajargenjang/index.html" type="button" class="selection-btn" id="buttonjajargenjang" onclick="jajargenjang()">Hitung Jajar Genjang</button> -->
-  <a href="/02-sept-24-mghaniIT/Jajargenjang/index.html"><button  class="selection-btn">Luas Segitiga</button></a>
+  <a href="/02-sept-24-mghaniIT/Jajargenjang/index.html"><button  class="selection-btn active">Luas Segitiga</button></a>
   <a href="/02-sept-24-mghaniIT/Jajargenjang/index.html"><button  class="selection-btn">Luas Jajargenjang</button></a>
   <div class="luas">
-  <div class="luas-segitiga"> Luas Segitiga </div>
+  <div class="luas-segitiga"> Luas dan Keliling Segitiga </div>
  
 </div>
 </section>
 <section class="section-luas">
-    <div class="">
+    <div class="rumus">
     <div class="img">
-    <img src="https://fastly.picsum.photos/id/17/2500/1667.jpg?hmac=HD-JrnNUZjFiP2UZQvWcKrgLoC_pc_ouUSWv8kHsJJY" alt="">
+    <img src="segitigaluas (2).png" alt="">
 </div>
 <h3> Rumus Luas Segitiga yaitu: </h3>
-<h4> L: a x t x 1/2</h4>
+<h4> L = a x t x 1/2</h4>
 <p>
     L= luas <br>
     a= alas <br>
     t= tinggi <br>
 </p>
 </div>
-<div class="">
+<div class="rumus">
     <div class="img">
-    <img src="https://fastly.picsum.photos/id/17/2500/1667.jpg?hmac=HD-JrnNUZjFiP2UZQvWcKrgLoC_pc_ouUSWv8kHsJJY" alt="">
+    <img src="segitigakeliling.png" alt="">
 </div>
-<h3> Rumus Luas Segitiga yaitu: </h3>
-<h4> L: a x t x 1/2</h4>
+<h3> Rumus Keliling Segitiga yaitu: </h3>
+<h4> K = a + b + c </h4>
 <p>
-    L= luas <br>
-    a= alas <br>
-    t= tinggi <br>
+    
+    K = Keliling <br>
+    a = sisi 1 <br>
+    b = sisi 2 <br>
+    c = sisi 3
+
+</dd>
 </p>
 </div>
 
 
 </section>
+<hr>
+<section class="section-hitung">
+<div>
+<h1>Hitung Luas Segitiga</h1>
+<form name="form" action="" method="get" accept-charset="utf-8">
+    <input type="number" name="alass" id="" placeholder="Masukkan panjang Alas" value="" /> <br>
+    <input type="number" name="tinggii" id="" placeholder="Masukkan panjang Tinggi" value="" />
+<br>
+<input type="button" value="Hitung" onclick="kalibagi()">
 
-<form action="" method="get" accept-charset="utf-8">
-    <input type="number" name="" id="alass" placeholder="Masukkan panjang Alas" value="" />
-    <input type="number" name="" id="tinggii" placeholder="Masukkan panjang Tinggi" value="" />
+<div class="input-total">
+    <input type="text" name="totalluas" placeholder="cm²" name="total" readonly="true" style="font-size: x-large; text-align: center;" >
+</div>
+
 </form>
-<button  onclick="hitung()" id=""> Hitung</button>
+<!-- <button  onclick="hitung()" id=""> Hitung</button> -->
+</div>
 
+<div>
+    <h1>Hitung Keliling Segitiga</h1>
+    <form name="form2"  action="" method="get" accept-charset="utf-8">
+        <input type="number" name="sisi1" id="" placeholder="Masukkan Sisi 1" value="" /> <br>
+        <input type="number" name="sisi2" id="" placeholder="Masukkan Sisi 2" value="" /> <br>
+        <input type="number" name="sisi3" id="" placeholder="Masukkan Sisi 3" value="" />
+    <br>
+    <input type="button" value="Hitung" onclick="tambah()">
+
+    <div class="input-total">
+        <input type="text" name="totalkeliling" readonly="true" placeholder="cm" style="font-size: x-large; text-align: center;">
+    </div>
+</form>
+   
+    </div>
+</section>
 </main>
 
 <script src="script.js"></script>
