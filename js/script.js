@@ -2,8 +2,6 @@
 // console.log(x)
 
 
-// var alass = document.getElementById("alass");
-// var tinggii = document.getElementById("tinggii");
 
 //Luas
 function cek() {
