@@ -113,5 +113,17 @@ x++;
 
 }
 
- const x = {bina5tang, dsa, dasdas}
- 
+let bil = [0]
+for(let i= 0; i < 10; i++) {
+  bil[i] = (i+1)*(i+1);
+  console.log( bil[i])
+
+}
+
+
+// var nilai = [3][5];
+// for(var i = 0; 0 < 3; i++) {
+//   for(var j = 0; 0 < 5; j++);
+//   console.log("%x", [i][j])
+//   console.log("\n");
+// }
